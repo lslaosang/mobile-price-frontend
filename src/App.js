@@ -74,7 +74,7 @@ function App() {
     // ==========================================
 
     try {
-      const response = await fetch('https://mobile-price-api1.onrender.com', {
+      const response = await fetch('https://mobile-price-api1.onrender.com/predict', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
